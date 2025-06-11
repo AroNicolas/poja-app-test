@@ -1,10 +1,10 @@
 package org.org.school.endpoint.rest.controller;
 
-import org.org.school.endpoint.event.EventProducer;
-import org.org.school.endpoint.event.model.SendEmailRequested;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
+import org.org.school.endpoint.event.EventProducer;
+import org.org.school.endpoint.event.model.SendEmailRequested;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
